@@ -41,14 +41,23 @@ Attendees do not need to be experts in or have experience using any of the techn
 
 ### [Intro to DevOps](https://github.com/katcosgrove/devops-101-workshop/blob/master/docs/intro.md)
 - What is the definition of DevOps?
+-- Union of developer team and the IT operations team
+-- Faster deployments, less bad deployments, faster recovery of good deployments
 - What does DevOps mean for developers?
+-- Code needs to be written so its modular, microservices vs monolithic
+-- Know a bit about containers but don't need to be an expert in docker/kubernetes
+-- Merging/pull main often. Tons of small changes, no more giant changes
+-- Build and unit tests should run with every commit automatically 
 - What is all of this jargon?
-
+-- Glossary in docs folder
 
 ### [Artifactory Module](https://github.com/katcosgrove/devops-101-workshop/blob/master/docs/artifactory.md)
 - What is binary repository manager?
+-- used to manage and build artifacts regardless of tech (not source control)
 - What are build artifacts?
+-- any object produced by software development. compiled binary, source code, container images, dependencies
 - Why might you need to manage your build artifacts?
+-- 
 - Binary repository setup in Artifactory
     - Docker
     - PyPi
